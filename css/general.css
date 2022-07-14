@@ -1,0 +1,89 @@
+/* *********************** */
+/* General Styles */
+/* *********************** */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #555;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid:last-child {
+  margin-bottom: 4.8rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-center-v {
+  align-items: center;
+}
+
+.centre-text,
+.pricing-detail {
+  text-align: center;
+}
+
+.primary-heading,
+.secondary-heading,
+.tertiary-heading {
+  color: #333;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.primary-heading {
+  font-size: 4.8rem;
+  line-height: 1.05;
+  margin-bottom: 2.4rem;
+}
+
+.secondary-heading {
+  font-size: 4.2rem;
+  line-height: 1.2;
+  margin-bottom: 4.8rem;
+}
+
+.tertiary-heading {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.cta-form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+  border: 2px solid #fdf2e9;
+}
